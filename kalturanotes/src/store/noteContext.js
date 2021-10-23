@@ -1,11 +1,11 @@
 import React from "react";
 
-const noteContext = React.createContext({
+const NoteContext = React.createContext({
 	video: "1_8ezksef0",
 	notes: [],
-	total: 0,
 	addNotes: (note) => {},
 	removeNotes: (id) => {},
+	loadVid: (id) => {},
 });
 
-export default noteContext;
+export default NoteContext;
