@@ -70,7 +70,7 @@ const CartProvider = (props) => {
 		total: noteState.total,
 		addnote: addToNoteHandler,
 		removenote: removeFromNoteHandler,
-		loadVid: loadNewVidHandler,
+		loadvid: loadNewVidHandler,
 	};
 
 	return <NoteContext.Provider value={noteContext}>{props.children}</NoteContext.Provider>;
