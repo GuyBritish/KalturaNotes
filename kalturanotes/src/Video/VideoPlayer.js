@@ -5,7 +5,7 @@ import classes from "./VideoPlayer.module.css";
 const VideoPlayer = (props) => {
 	return (
 		<React.Fragment>
-			<h1> This is our video</h1>
+			<h1>Lecture Video</h1>
 			<iframe
 				id="kaltura_player"
 				src="https://cdnapisec.kaltura.com/p/1660902/sp/166090200/embedIframeJs/uiconf_id/44363851/partner_id/1660902?iframeembed=true&playerId=kaltura_player&entry_id=1_8ezksef0&flashvars[streamerType]=auto&amp;
